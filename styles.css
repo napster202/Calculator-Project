@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	background-size: cover;
+    background-attachment: fixed;
+}
+.head{
+    width: 300px;
+    text-align: center;
+}
+.container{
+    height: 406px;
+    width: 350px;
+    margin: 40px auto;
+}
+.screen{
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+}
+#numdisplay{    
+	height: 42px;
+    text-align: right;
+    font: normal normal 43px Arial;
+}
+#numdisplay span{
+	opacity: 0.5;
+}
+.keypad {
+    width: 290px;
+    height: 206px;
+}
+input{ 
+	height: 47px;
+    width: 65px;
+    margin: 2px;
+	font: bold normal 30px Verdana;
+}
+.specialbuttons{
+    height: 50px;
+    width: 300px;
+    margin: 0px auto;
+}
+.specialbuttons input{
+    width: 143px;
+    font-size: 20px;
+}
